@@ -1,7 +1,13 @@
+###Использование Spring Boot Actuator совместно с Prometheus
+
 В любом приложении на Spring делать почти ничего не нужно, рецепт вот такой:
 1) добавляем dependency в pom приложения
 
       ``` 
+   <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+   </dependency>
    <dependency>
          <groupId>io.micrometer</groupId>
          <artifactId>micrometer-registry-prometheus</artifactId>
