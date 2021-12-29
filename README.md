@@ -1,4 +1,4 @@
-###Использование Spring Boot Actuator совместно с Prometheus
+**Использование Spring Boot Actuator совместно с Prometheus**
 
 В любом приложении на Spring делать почти ничего не нужно, рецепт вот такой:
 1) добавляем dependency в pom приложения
@@ -35,3 +35,5 @@ https://habr.com/ru/post/548700/
 
 Есть еще одна статья, где будут полезны описание настроек и как читать результаты
 https://habr.com/ru/company/otus/blog/452624/
+
+В файле application.properties я указал самые полезные способны настройки отдельных endpoints и metrics
